@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
 import { PiSignInBold } from "react-icons/pi";
+import { GiMeshNetwork } from "react-icons/gi";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -40,7 +41,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-        <strong className="main-name" style={{ fontSize: '30px' }}> IRNET</strong>
+        <strong className="main-name" style={{ fontSize: '30px' }}><GiMeshNetwork/>&nbsp; IRNET</strong>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -81,11 +82,11 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
+              <Nav.Link href="https://github.com/ManishSridharI" target="_blank" onClick={() => updateExpanded(false)}>
+                {/* as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
-              >
+              > */}
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 GitHub
               </Nav.Link>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 //import homeLogo from "../../Assets/home-main.svg";
-import homeLogo from "../../Assets/home.png";
+import homeLogo from "../../Assets/home1.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -46,6 +46,7 @@ function Home() {
       <Home2 />
       <Workflow/>
     </section>
+    
   );
 }
 

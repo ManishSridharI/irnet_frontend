@@ -8,6 +8,8 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import step1 from "../../Assets/step1.png"
+import step2 from "../../Assets/step2.png"
 
 function Workflow() {
   return (
@@ -23,23 +25,21 @@ function Workflow() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className="project-card">
             <WorkflowCard
-              imgPath={chatify}
+              imgPath={step1}
               isBlog={false}
-              title="Step 1"
+              title="Got your own data?"
               description="Choose a cancer treatement, type and upload the expression file."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              s1Link="http://digbio-devel.missouri.edu:9090/predict_upload"
             />
           </Col>
 
           <Col md={6} className="project-card">
             <WorkflowCard
-              imgPath={bitsOfCode}
+              imgPath={step2}
               isBlog={false}
-              title="Step 2"
+              title="View and compare with our results"
               description="View the ICI response Predictions and interpret the results."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              s2Link="https://blogs.soumya-jit.tech/"
             />
           </Col>
         </Row>

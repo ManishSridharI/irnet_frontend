@@ -18,6 +18,10 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.white {
+  color: white;
+}
+
 button:focus {
   box-shadow: none !important;
 }
@@ -473,6 +477,18 @@ button:focus {
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
+.card-img-custom {
+  width: 70px; /* Full width of the card */
+  height: 400px; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the area without stretching */
+}
+/* Add this class to your CSS file */
+.footer-logo {
+  width: 100px; /* Set the width to the size you consider 'tiny' */
+  height: 40px; /* Maintain aspect ratio */
+  margin-right: 25px; /* Optional: add some space between the image and the text */
+}
+
 
 .blog-card {
   padding-top: 50px !important;
