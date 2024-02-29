@@ -1,0 +1,25 @@
+.scroller-container {
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+}
+
+.scroller-content {
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 24px;
+  color:  #c770f0;
+  /* Animation */
+  animation: scroll-left 10s linear infinite;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
