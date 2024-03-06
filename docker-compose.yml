@@ -4,10 +4,11 @@ services:
   web:
     build:
       context: .
-      dockerfile: DockerFile
-    container_name: "IRNet"
+      dockerfile: Dockerfile
+    container_name: "IRNet-Frontend"
     command: sh -c "export PORT=3355 && npm start"
     tty: true
+    restart: always
     volumes:
       - .:/usr/src/app
       - '/usr/src/app/node_modules'

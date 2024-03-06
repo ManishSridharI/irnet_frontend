@@ -6,7 +6,6 @@ import About from "./components/About/About";
 import Projects from "./components/Workflow/Workflow";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
-import SignIn from "./components/Signin";
 import Upload from "./components/Predict/Upload"
 import {
   BrowserRouter as Router,
@@ -19,6 +18,8 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Results from "./components/Predict/Results";
+import Login from "./components/Login/Login";
+import SignUp from "./components/Login/Signup";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -42,7 +43,8 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="/signin" element={<SignIn />} />
+          <Route path="/sign-in" element={<Login />} />
+          <Route path="/sign-up" element={<SignUp />} />
           <Route path="/predict_upload" element={<Upload />} />
           <Route path="/predict_result" element={<Results />} />
           <Route path="*" element={<Navigate to="/"/>} />

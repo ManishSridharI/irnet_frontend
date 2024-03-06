@@ -13,7 +13,9 @@ RUN npm install
 # Copy the local project files to the working directory
 COPY . .
 
-
-
 # Run npm start when the container launches
 CMD ["npm", "start"]
+
+
+
+

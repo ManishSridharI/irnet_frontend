@@ -20,7 +20,7 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <form action=''>
-        <Row className="mb-4 justify-content-center"> 
+        <Row className="mb-4 justify-content-center"  style={{marginTop: 30}}> 
           <Col xs="auto" className="my-0 px-2"> 
             <h4>
               <strong><b className="purple">Got Queries?</b></strong>
@@ -65,9 +65,9 @@ function Footer() {
             <Col md='3' lg='2' xl='2' className='mx-auto mb-4'>
               <h6 className='purple'>Team</h6>
               <p className='white'>Yuexu Jiang </p>
+              <p className='white'>Manish Sridhar</p>
               <p className='white'>Dong Xu</p>
               <p className='white'>Trupti Joshi</p>
-              <p className='white'>Manish Sridhar</p>
             </Col>
 
             <Col md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
@@ -130,7 +130,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="https://github.com/ManishSridharI"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

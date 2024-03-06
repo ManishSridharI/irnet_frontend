@@ -274,6 +274,12 @@ button:focus {
   text-align: left;
 }
 
+.login-content {
+  padding: 9rem 25rem 2rem !important;
+  color: whitesmoke;
+  text-align: left;
+}
+
 .heading {
   font-size: 2.4em !important;
   padding-left: 50px !important;
@@ -596,6 +602,37 @@ button:focus {
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
+}
+
+.selected {
+  background-color: rgba(217, 195, 226, 0.883) !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important; /* Highlight border, adjust color as needed */
+}
+
+.selected-row {
+  background-color: rgba(217, 195, 226, 0.883) !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important; /* Highlight border, adjust color as needed */
+}
+
+.mdb-dataTable th  {
+  color: #c770f0;
+}
+
+.mdb-dataTable td {
+  color: white !important; /* Change text color */
+}
+
+.mdb-dataTable:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}
+
+/* Add this CSS to your component or global stylesheet */
+.table-row:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
 
 .quote-card-view {
