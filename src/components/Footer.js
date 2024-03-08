@@ -2,13 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Button from "react-bootstrap/Button";
 import Mizzou from "../Assets/mizzou.png"
-import { PiSignInBold } from "react-icons/pi";
 import { VscSend } from "react-icons/vsc"; 
 import { GiMeshNetwork } from "react-icons/gi";
 import { CiLocationArrow1 } from "react-icons/ci";

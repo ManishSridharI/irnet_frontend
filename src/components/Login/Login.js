@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import { Container } from 'react-bootstrap';
 import Particle from '../Particle';
 import { Left } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 export default class Login extends Component {
   render() {
     return (
         <section>
-        
+        <Particle />
         <Container className="login-content"> 
+        
       <form>
         <h3 className='project-heading'><span className="purple">Sign In</span></h3>
         <div className="mb-3">
@@ -50,7 +52,7 @@ export default class Login extends Component {
           <a href="#">Forgot password?</a>
         </p>
         <p className="forgot-password text-left">
-          Not a member? <a href="http://digbio-devel.missouri.edu:9090/sign-up">Register</a>
+          Not a member? <Link to="/sign-up">Register</Link>
         </p>
       </div>
       </form>

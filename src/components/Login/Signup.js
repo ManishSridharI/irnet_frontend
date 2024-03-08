@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import { Container } from 'react-bootstrap';
+import Particle from '../Particle';
 
 export default class SignUp extends Component {
   render() {
     return (
       <section>
-        
+        <Particle />
         <Container className="login-content"> 
+        
       <form>
       <h3 className='project-heading'><span className="purple">Sign Up</span></h3>
         <div className="mb-3">
