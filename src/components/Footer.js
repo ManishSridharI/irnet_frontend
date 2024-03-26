@@ -28,7 +28,7 @@ function Footer() {
             <input type='text' id='form5Example2' className="form-control" placeholder="Your issue" /> 
           </Col>
           <Col xs="auto" className="my-0 px-2"> 
-            <Button type="submit" className="btn btn-primary"> 
+            <Button type="submit" className="fork-btn-inner" href="mailto:yjm85@missouri.edu,JoshiTr@missouri.edu"> 
               <VscSend/> &nbsp; Email Us
             </Button>
           </Col>

@@ -41,7 +41,6 @@ function Teamstack() {
                             <p>Postdoctoral Fellow</p>
                             <p>Christopher S. Bond Life Sciences Center</p>
                             <p>Department of Electrical Engineering and Computer Science</p>
-                            <a style={email_css} href="mailto:wangdu@missouri.edu" target="_blank"> Email Duolin</a>
                         </div >
                     </CardContent>
                 </Card >
@@ -57,7 +56,6 @@ function Teamstack() {
                             <p>Postdoctoral Fellow</p>
                             <p>Christopher S. Bond Life Sciences Center</p>
                             <p>Department of Electrical Engineering and Computer Science</p>
-                            <a style={email_css} href="mailto:zengs@missouri.edu" target="_blank"> Email Shuai</a>
                         </div >
                     </CardContent>
                 </Card >
@@ -70,7 +68,6 @@ function Teamstack() {
                             <h3  style={name_css}>Manish Sridhar</h3>
                             <p>Masters Student</p>
                             <p>Department of Electrical Engineering and Computer Science</p>
-                            <a style={email_css} href="mailto:mizy9@missouri.edu" target="_blank"> Email Manish</a>
                         </div >
                     </CardContent>
                 </Card >
@@ -86,22 +83,6 @@ function Teamstack() {
                             <p>PhD. Student</p>
                             <p>MU Institute for Data Science and Informatics</p>
                             <p>Department of Electrical Engineering and Computer Science</p>
-                            <a style={email_css} href="mailto:chanye@missouri.edu" target="_blank"> Email Yen</a>
-                        </div >
-                    </CardContent>
-                </Card >
-                <Card style={faculty_card_css}>
-                    <CardContent>
-                        <div >
-                            <div>
-                              <div>
-                                  <img decoding="async" src={aaboutimg} alt="Jing Zhou" style={img_css} />
-                              </div>
-                            </div>
-                            <h3  style={name_css}>Jing Zhou</h3>
-                            
-                            <p >Department of Surgery</p>
-                            <a style={email_css} href="mailto:jz9y7@missouri.edu" target="_blank"> Email Jing</a>
                         </div >
                     </CardContent>
                 </Card >

@@ -1,0 +1,1434 @@
+{
+    "path:hsa01100": {
+        "category": "metabolism",
+        "pathway_name": "Metabolic pathways"
+    },
+    "path:hsa01200": {
+        "category": "metabolism",
+        "pathway_name": "Carbon metabolism"
+    },
+    "path:hsa01210": {
+        "category": "metabolism",
+        "pathway_name": "2-Oxocarboxylic acid metabolism"
+    },
+    "path:hsa01212": {
+        "category": "metabolism",
+        "pathway_name": "Fatty acid metabolism"
+    },
+    "path:hsa01230": {
+        "category": "metabolism",
+        "pathway_name": "Biosynthesis of amino acids"
+    },
+    "path:hsa01232": {
+        "category": "metabolism",
+        "pathway_name": "Nucleotide metabolism"
+    },
+    "path:hsa01250": {
+        "category": "metabolism",
+        "pathway_name": "Biosynthesis of nucleotide sugars"
+    },
+    "path:hsa01240": {
+        "category": "metabolism",
+        "pathway_name": "Biosynthesis of cofactors"
+    },
+    "path:hsa00010": {
+        "category": "metabolism",
+        "pathway_name": "Glycolysis / Gluconeogenesis"
+    },
+    "path:hsa00020": {
+        "category": "metabolism",
+        "pathway_name": "Citrate cycle (TCA cycle)"
+    },
+    "path:hsa00030": {
+        "category": "metabolism",
+        "pathway_name": "Pentose phosphate pathway"
+    },
+    "path:hsa00040": {
+        "category": "metabolism",
+        "pathway_name": "Pentose and glucuronate interconversions"
+    },
+    "path:hsa00051": {
+        "category": "metabolism",
+        "pathway_name": "Fructose and mannose metabolism"
+    },
+    "path:hsa00052": {
+        "category": "metabolism",
+        "pathway_name": "Galactose metabolism"
+    },
+    "path:hsa00053": {
+        "category": "metabolism",
+        "pathway_name": "Ascorbate and aldarate metabolism"
+    },
+    "path:hsa00500": {
+        "category": "metabolism",
+        "pathway_name": "Starch and sucrose metabolism"
+    },
+    "path:hsa00520": {
+        "category": "metabolism",
+        "pathway_name": "Amino sugar and nucleotide sugar metabolism"
+    },
+    "path:hsa00620": {
+        "category": "metabolism",
+        "pathway_name": "Pyruvate metabolism"
+    },
+    "path:hsa00630": {
+        "category": "metabolism",
+        "pathway_name": "Glyoxylate and dicarboxylate metabolism"
+    },
+    "path:hsa00640": {
+        "category": "metabolism",
+        "pathway_name": "Propanoate metabolism"
+    },
+    "path:hsa00650": {
+        "category": "metabolism",
+        "pathway_name": "Butanoate metabolism"
+    },
+    "path:hsa00562": {
+        "category": "metabolism",
+        "pathway_name": "Inositol phosphate metabolism"
+    },
+    "path:hsa00190": {
+        "category": "metabolism",
+        "pathway_name": "Oxidative phosphorylation"
+    },
+    "path:hsa00910": {
+        "category": "metabolism",
+        "pathway_name": "Nitrogen metabolism"
+    },
+    "path:hsa00920": {
+        "category": "metabolism",
+        "pathway_name": "Sulfur metabolism"
+    },
+    "path:hsa00061": {
+        "category": "metabolism",
+        "pathway_name": "Fatty acid biosynthesis"
+    },
+    "path:hsa00062": {
+        "category": "metabolism",
+        "pathway_name": "Fatty acid elongation"
+    },
+    "path:hsa00071": {
+        "category": "metabolism",
+        "pathway_name": "Fatty acid degradation"
+    },
+    "path:hsa00100": {
+        "category": "metabolism",
+        "pathway_name": "Steroid biosynthesis"
+    },
+    "path:hsa00120": {
+        "category": "metabolism",
+        "pathway_name": "Primary bile acid biosynthesis"
+    },
+    "path:hsa00140": {
+        "category": "metabolism",
+        "pathway_name": "Steroid hormone biosynthesis"
+    },
+    "path:hsa00561": {
+        "category": "metabolism",
+        "pathway_name": "Glycerolipid metabolism"
+    },
+    "path:hsa00564": {
+        "category": "metabolism",
+        "pathway_name": "Glycerophospholipid metabolism"
+    },
+    "path:hsa00565": {
+        "category": "metabolism",
+        "pathway_name": "Ether lipid metabolism"
+    },
+    "path:hsa00600": {
+        "category": "metabolism",
+        "pathway_name": "Sphingolipid metabolism"
+    },
+    "path:hsa00590": {
+        "category": "metabolism",
+        "pathway_name": "Arachidonic acid metabolism"
+    },
+    "path:hsa00591": {
+        "category": "metabolism",
+        "pathway_name": "Linoleic acid metabolism"
+    },
+    "path:hsa00592": {
+        "category": "metabolism",
+        "pathway_name": "alpha-Linolenic acid metabolism"
+    },
+    "path:hsa01040": {
+        "category": "metabolism",
+        "pathway_name": "Biosynthesis of unsaturated fatty acids"
+    },
+    "path:hsa00230": {
+        "category": "metabolism",
+        "pathway_name": "Purine metabolism"
+    },
+    "path:hsa00240": {
+        "category": "metabolism",
+        "pathway_name": "Pyrimidine metabolism"
+    },
+    "path:hsa00250": {
+        "category": "metabolism",
+        "pathway_name": "Alanine, aspartate and glutamate metabolism"
+    },
+    "path:hsa00260": {
+        "category": "metabolism",
+        "pathway_name": "Glycine, serine and threonine metabolism"
+    },
+    "path:hsa00270": {
+        "category": "metabolism",
+        "pathway_name": "Cysteine and methionine metabolism"
+    },
+    "path:hsa00280": {
+        "category": "metabolism",
+        "pathway_name": "Valine, leucine and isoleucine degradation"
+    },
+    "path:hsa00290": {
+        "category": "metabolism",
+        "pathway_name": "Valine, leucine and isoleucine biosynthesis"
+    },
+    "path:hsa00310": {
+        "category": "metabolism",
+        "pathway_name": "Lysine degradation"
+    },
+    "path:hsa00220": {
+        "category": "metabolism",
+        "pathway_name": "Arginine biosynthesis"
+    },
+    "path:hsa00330": {
+        "category": "metabolism",
+        "pathway_name": "Arginine and proline metabolism"
+    },
+    "path:hsa00340": {
+        "category": "metabolism",
+        "pathway_name": "Histidine metabolism"
+    },
+    "path:hsa00350": {
+        "category": "metabolism",
+        "pathway_name": "Tyrosine metabolism"
+    },
+    "path:hsa00360": {
+        "category": "metabolism",
+        "pathway_name": "Phenylalanine metabolism"
+    },
+    "path:hsa00380": {
+        "category": "metabolism",
+        "pathway_name": "Tryptophan metabolism"
+    },
+    "path:hsa00400": {
+        "category": "metabolism",
+        "pathway_name": "Phenylalanine, tyrosine and tryptophan biosynthesis"
+    },
+    "path:hsa00410": {
+        "category": "metabolism",
+        "pathway_name": "beta-Alanine metabolism"
+    },
+    "path:hsa00430": {
+        "category": "metabolism",
+        "pathway_name": "Taurine and hypotaurine metabolism"
+    },
+    "path:hsa00440": {
+        "category": "metabolism",
+        "pathway_name": "Phosphonate and phosphinate metabolism"
+    },
+    "path:hsa00450": {
+        "category": "metabolism",
+        "pathway_name": "Selenocompound metabolism"
+    },
+    "path:hsa00470": {
+        "category": "metabolism",
+        "pathway_name": "D-Amino acid metabolism"
+    },
+    "path:hsa00480": {
+        "category": "metabolism",
+        "pathway_name": "Glutathione metabolism"
+    },
+    "path:hsa00510": {
+        "category": "metabolism",
+        "pathway_name": "N-Glycan biosynthesis"
+    },
+    "path:hsa00513": {
+        "category": "metabolism",
+        "pathway_name": "Various types of N-glycan biosynthesis"
+    },
+    "path:hsa00512": {
+        "category": "metabolism",
+        "pathway_name": "Mucin type O-glycan biosynthesis"
+    },
+    "path:hsa00515": {
+        "category": "metabolism",
+        "pathway_name": "Mannose type O-glycan biosynthesis"
+    },
+    "path:hsa00514": {
+        "category": "metabolism",
+        "pathway_name": "Other types of O-glycan biosynthesis"
+    },
+    "path:hsa00532": {
+        "category": "metabolism",
+        "pathway_name": "Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate"
+    },
+    "path:hsa00534": {
+        "category": "metabolism",
+        "pathway_name": "Glycosaminoglycan biosynthesis - heparan sulfate / heparin"
+    },
+    "path:hsa00533": {
+        "category": "metabolism",
+        "pathway_name": "Glycosaminoglycan biosynthesis - keratan sulfate"
+    },
+    "path:hsa00531": {
+        "category": "metabolism",
+        "pathway_name": "Glycosaminoglycan degradation"
+    },
+    "path:hsa00563": {
+        "category": "metabolism",
+        "pathway_name": "Glycosylphosphatidylinositol (GPI)-anchor biosynthesis"
+    },
+    "path:hsa00601": {
+        "category": "metabolism",
+        "pathway_name": "Glycosphingolipid biosynthesis - lacto and neolacto series"
+    },
+    "path:hsa00603": {
+        "category": "metabolism",
+        "pathway_name": "Glycosphingolipid biosynthesis - globo and isoglobo series"
+    },
+    "path:hsa00604": {
+        "category": "metabolism",
+        "pathway_name": "Glycosphingolipid biosynthesis - ganglio series"
+    },
+    "path:hsa00511": {
+        "category": "metabolism",
+        "pathway_name": "Other glycan degradation"
+    },
+    "path:hsa00730": {
+        "category": "metabolism",
+        "pathway_name": "Thiamine metabolism"
+    },
+    "path:hsa00740": {
+        "category": "metabolism",
+        "pathway_name": "Riboflavin metabolism"
+    },
+    "path:hsa00750": {
+        "category": "metabolism",
+        "pathway_name": "Vitamin B6 metabolism"
+    },
+    "path:hsa00760": {
+        "category": "metabolism",
+        "pathway_name": "Nicotinate and nicotinamide metabolism"
+    },
+    "path:hsa00770": {
+        "category": "metabolism",
+        "pathway_name": "Pantothenate and CoA biosynthesis"
+    },
+    "path:hsa00780": {
+        "category": "metabolism",
+        "pathway_name": "Biotin metabolism"
+    },
+    "path:hsa00785": {
+        "category": "metabolism",
+        "pathway_name": "Lipoic acid metabolism"
+    },
+    "path:hsa00790": {
+        "category": "metabolism",
+        "pathway_name": "Folate biosynthesis"
+    },
+    "path:hsa00670": {
+        "category": "metabolism",
+        "pathway_name": "One carbon pool by folate"
+    },
+    "path:hsa00830": {
+        "category": "metabolism",
+        "pathway_name": "Retinol metabolism"
+    },
+    "path:hsa00860": {
+        "category": "metabolism",
+        "pathway_name": "Porphyrin metabolism"
+    },
+    "path:hsa00130": {
+        "category": "metabolism",
+        "pathway_name": "Ubiquinone and other terpenoid-quinone biosynthesis"
+    },
+    "path:hsa00900": {
+        "category": "metabolism",
+        "pathway_name": "Terpenoid backbone biosynthesis"
+    },
+    "path:hsa00232": {
+        "category": "metabolism",
+        "pathway_name": "Caffeine metabolism"
+    },
+    "path:hsa00524": {
+        "category": "metabolism",
+        "pathway_name": "Neomycin, kanamycin and gentamicin biosynthesis"
+    },
+    "path:hsa00980": {
+        "category": "metabolism",
+        "pathway_name": "Metabolism of xenobiotics by cytochrome P450"
+    },
+    "path:hsa00982": {
+        "category": "metabolism",
+        "pathway_name": "Drug metabolism - cytochrome P450"
+    },
+    "path:hsa00983": {
+        "category": "metabolism",
+        "pathway_name": "Drug metabolism - other enzymes"
+    },
+    "path:hsa03020": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "RNA polymerase"
+    },
+    "path:hsa03022": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Basal transcription factors"
+    },
+    "path:hsa03040": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Spliceosome"
+    },
+    "path:hsa03010": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Ribosome"
+    },
+    "path:hsa00970": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Aminoacyl-tRNA biosynthesis"
+    },
+    "path:hsa03013": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Nucleocytoplasmic transport"
+    },
+    "path:hsa03015": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "mRNA surveillance pathway"
+    },
+    "path:hsa03008": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Ribosome biogenesis in eukaryotes"
+    },
+    "path:hsa03060": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Protein export"
+    },
+    "path:hsa04141": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Protein processing in endoplasmic reticulum"
+    },
+    "path:hsa04130": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "SNARE interactions in vesicular transport"
+    },
+    "path:hsa04120": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Ubiquitin mediated proteolysis"
+    },
+    "path:hsa04122": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Sulfur relay system"
+    },
+    "path:hsa03050": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Proteasome"
+    },
+    "path:hsa03018": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "RNA degradation"
+    },
+    "path:hsa03030": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "DNA replication"
+    },
+    "path:hsa03410": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Base excision repair"
+    },
+    "path:hsa03420": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Nucleotide excision repair"
+    },
+    "path:hsa03430": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Mismatch repair"
+    },
+    "path:hsa03440": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Homologous recombination"
+    },
+    "path:hsa03450": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Non-homologous end-joining"
+    },
+    "path:hsa03460": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Fanconi anemia pathway"
+    },
+    "path:hsa03082": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "ATP-dependent chromatin remodeling"
+    },
+    "path:hsa03083": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Polycomb repressive complex"
+    },
+    "path:hsa03250": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Viral life cycle - HIV-1"
+    },
+    "path:hsa03260": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Virion - Human immunodeficiency virus"
+    },
+    "path:hsa03271": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Virion - Rotavirus"
+    },
+    "path:hsa03264": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Virion - Flavivirus"
+    },
+    "path:hsa03265": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Virion - Ebolavirus and Lyssavirus"
+    },
+    "path:hsa03266": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Virion - Herpesvirus"
+    },
+    "path:hsa03267": {
+        "category": "Genetic Information Processing",
+        "pathway_name": "Virion - Adenovirus"
+    },
+    "path:hsa02010": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "ABC transporters"
+    },
+    "path:hsa04010": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "MAPK signaling pathway"
+    },
+    "path:hsa04012": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "ErbB signaling pathway"
+    },
+    "path:hsa04014": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "Ras signaling pathway"
+    },
+    "path:hsa04015": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "Rap1 signaling pathway"
+    },
+    "path:hsa04310": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "Wnt signaling pathway"
+    },
+    "path:hsa04330": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "Notch signaling pathway"
+    },
+    "path:hsa04340": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "Hedgehog signaling pathway"
+    },
+    "path:hsa04350": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "TGF-beta signaling pathway"
+    },
+    "path:hsa04390": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "Hippo signaling pathway"
+    },
+    "path:hsa04392": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "Hippo signaling pathway - multiple species"
+    },
+    "path:hsa04370": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "VEGF signaling pathway"
+    },
+    "path:hsa04371": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "Apelin signaling pathway"
+    },
+    "path:hsa04630": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "JAK-STAT signaling pathway"
+    },
+    "path:hsa04064": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "NF-kappa B signaling pathway"
+    },
+    "path:hsa04668": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "TNF signaling pathway"
+    },
+    "path:hsa04066": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "HIF-1 signaling pathway"
+    },
+    "path:hsa04068": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "FoxO signaling pathway"
+    },
+    "path:hsa04020": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "Calcium signaling pathway"
+    },
+    "path:hsa04070": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "Phosphatidylinositol signaling system"
+    },
+    "path:hsa04072": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "Phospholipase D signaling pathway"
+    },
+    "path:hsa04071": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "Sphingolipid signaling pathway"
+    },
+    "path:hsa04024": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "cAMP signaling pathway"
+    },
+    "path:hsa04022": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "cGMP-PKG signaling pathway"
+    },
+    "path:hsa04151": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "PI3K-Akt signaling pathway"
+    },
+    "path:hsa04152": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "AMPK signaling pathway"
+    },
+    "path:hsa04150": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "mTOR signaling pathway"
+    },
+    "path:hsa04080": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "Neuroactive ligand-receptor interaction"
+    },
+    "path:hsa04060": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "Cytokine-cytokine receptor interaction"
+    },
+    "path:hsa04061": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "Viral protein interaction with cytokine and cytokine receptor"
+    },
+    "path:hsa04512": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "ECM-receptor interaction"
+    },
+    "path:hsa04514": {
+        "category": "Environmental Information Processing",
+        "pathway_name": "Cell adhesion molecules"
+    },
+    "path:hsa04144": {
+        "category": "Cellular Process",
+        "pathway_name": "Endocytosis"
+    },
+    "path:hsa04145": {
+        "category": "Cellular Process",
+        "pathway_name": "Phagosome"
+    },
+    "path:hsa04142": {
+        "category": "Cellular Process",
+        "pathway_name": "Lysosome"
+    },
+    "path:hsa04146": {
+        "category": "Cellular Process",
+        "pathway_name": "Peroxisome"
+    },
+    "path:hsa04140": {
+        "category": "Cellular Process",
+        "pathway_name": "Autophagy - animal"
+    },
+    "path:hsa04136": {
+        "category": "Cellular Process",
+        "pathway_name": "Autophagy - other"
+    },
+    "path:hsa04137": {
+        "category": "Cellular Process",
+        "pathway_name": "Mitophagy - animal"
+    },
+    "path:hsa04148": {
+        "category": "Cellular Process",
+        "pathway_name": "Efferocytosis"
+    },
+    "path:hsa04110": {
+        "category": "Cellular Process",
+        "pathway_name": "Cell cycle"
+    },
+    "path:hsa04114": {
+        "category": "Cellular Process",
+        "pathway_name": "Oocyte meiosis"
+    },
+    "path:hsa04210": {
+        "category": "Cellular Process",
+        "pathway_name": "Apoptosis"
+    },
+    "path:hsa04215": {
+        "category": "Cellular Process",
+        "pathway_name": "Apoptosis - multiple species"
+    },
+    "path:hsa04216": {
+        "category": "Cellular Process",
+        "pathway_name": "Ferroptosis"
+    },
+    "path:hsa04217": {
+        "category": "Cellular Process",
+        "pathway_name": "Necroptosis"
+    },
+    "path:hsa04115": {
+        "category": "Cellular Process",
+        "pathway_name": "p53 signaling pathway"
+    },
+    "path:hsa04218": {
+        "category": "Cellular Process",
+        "pathway_name": "Cellular senescence"
+    },
+    "path:hsa04510": {
+        "category": "Cellular Process",
+        "pathway_name": "Focal adhesion"
+    },
+    "path:hsa04520": {
+        "category": "Cellular Process",
+        "pathway_name": "Adherens junction"
+    },
+    "path:hsa04530": {
+        "category": "Cellular Process",
+        "pathway_name": "Tight junction"
+    },
+    "path:hsa04540": {
+        "category": "Cellular Process",
+        "pathway_name": "Gap junction"
+    },
+    "path:hsa04550": {
+        "category": "Cellular Process",
+        "pathway_name": "Signaling pathways regulating pluripotency of stem cells"
+    },
+    "path:hsa04814": {
+        "category": "Cellular Process",
+        "pathway_name": "Motor proteins"
+    },
+    "path:hsa04810": {
+        "category": "Cellular Process",
+        "pathway_name": "Regulation of actin cytoskeleton"
+    },
+    "path:hsa04640": {
+        "category": "Organismal Systems",
+        "pathway_name": "Hematopoietic cell lineage"
+    },
+    "path:hsa04610": {
+        "category": "Organismal Systems",
+        "pathway_name": "Complement and coagulation cascades"
+    },
+    "path:hsa04611": {
+        "category": "Organismal Systems",
+        "pathway_name": "Platelet activation"
+    },
+    "path:hsa04613": {
+        "category": "Organismal Systems",
+        "pathway_name": "Neutrophil extracellular trap formation"
+    },
+    "path:hsa04620": {
+        "category": "Organismal Systems",
+        "pathway_name": "Toll-like receptor signaling pathway"
+    },
+    "path:hsa04621": {
+        "category": "Organismal Systems",
+        "pathway_name": "NOD-like receptor signaling pathway"
+    },
+    "path:hsa04622": {
+        "category": "Organismal Systems",
+        "pathway_name": "RIG-I-like receptor signaling pathway"
+    },
+    "path:hsa04623": {
+        "category": "Organismal Systems",
+        "pathway_name": "Cytosolic DNA-sensing pathway"
+    },
+    "path:hsa04625": {
+        "category": "Organismal Systems",
+        "pathway_name": "C-type lectin receptor signaling pathway"
+    },
+    "path:hsa04650": {
+        "category": "Organismal Systems",
+        "pathway_name": "Natural killer cell mediated cytotoxicity"
+    },
+    "path:hsa04612": {
+        "category": "Organismal Systems",
+        "pathway_name": "Antigen processing and presentation"
+    },
+    "path:hsa04660": {
+        "category": "Organismal Systems",
+        "pathway_name": "T cell receptor signaling pathway"
+    },
+    "path:hsa04658": {
+        "category": "Organismal Systems",
+        "pathway_name": "Th1 and Th2 cell differentiation"
+    },
+    "path:hsa04659": {
+        "category": "Organismal Systems",
+        "pathway_name": "Th17 cell differentiation"
+    },
+    "path:hsa04657": {
+        "category": "Organismal Systems",
+        "pathway_name": "IL-17 signaling pathway"
+    },
+    "path:hsa04662": {
+        "category": "Organismal Systems",
+        "pathway_name": "B cell receptor signaling pathway"
+    },
+    "path:hsa04664": {
+        "category": "Organismal Systems",
+        "pathway_name": "Fc epsilon RI signaling pathway"
+    },
+    "path:hsa04666": {
+        "category": "Organismal Systems",
+        "pathway_name": "Fc gamma R-mediated phagocytosis"
+    },
+    "path:hsa04670": {
+        "category": "Organismal Systems",
+        "pathway_name": "Leukocyte transendothelial migration"
+    },
+    "path:hsa04672": {
+        "category": "Organismal Systems",
+        "pathway_name": "Intestinal immune network for IgA production"
+    },
+    "path:hsa04062": {
+        "category": "Organismal Systems",
+        "pathway_name": "Chemokine signaling pathway"
+    },
+    "path:hsa04911": {
+        "category": "Organismal Systems",
+        "pathway_name": "Insulin secretion"
+    },
+    "path:hsa04910": {
+        "category": "Organismal Systems",
+        "pathway_name": "Insulin signaling pathway"
+    },
+    "path:hsa04922": {
+        "category": "Organismal Systems",
+        "pathway_name": "Glucagon signaling pathway"
+    },
+    "path:hsa04923": {
+        "category": "Organismal Systems",
+        "pathway_name": "Regulation of lipolysis in adipocytes"
+    },
+    "path:hsa04920": {
+        "category": "Organismal Systems",
+        "pathway_name": "Adipocytokine signaling pathway"
+    },
+    "path:hsa03320": {
+        "category": "Organismal Systems",
+        "pathway_name": "PPAR signaling pathway"
+    },
+    "path:hsa04929": {
+        "category": "Organismal Systems",
+        "pathway_name": "GnRH secretion"
+    },
+    "path:hsa04912": {
+        "category": "Organismal Systems",
+        "pathway_name": "GnRH signaling pathway"
+    },
+    "path:hsa04913": {
+        "category": "Organismal Systems",
+        "pathway_name": "Ovarian steroidogenesis"
+    },
+    "path:hsa04915": {
+        "category": "Organismal Systems",
+        "pathway_name": "Estrogen signaling pathway"
+    },
+    "path:hsa04914": {
+        "category": "Organismal Systems",
+        "pathway_name": "Progesterone-mediated oocyte maturation"
+    },
+    "path:hsa04917": {
+        "category": "Organismal Systems",
+        "pathway_name": "Prolactin signaling pathway"
+    },
+    "path:hsa04921": {
+        "category": "Organismal Systems",
+        "pathway_name": "Oxytocin signaling pathway"
+    },
+    "path:hsa04926": {
+        "category": "Organismal Systems",
+        "pathway_name": "Relaxin signaling pathway"
+    },
+    "path:hsa04935": {
+        "category": "Organismal Systems",
+        "pathway_name": "Growth hormone synthesis, secretion and action"
+    },
+    "path:hsa04918": {
+        "category": "Organismal Systems",
+        "pathway_name": "Thyroid hormone synthesis"
+    },
+    "path:hsa04919": {
+        "category": "Organismal Systems",
+        "pathway_name": "Thyroid hormone signaling pathway"
+    },
+    "path:hsa04928": {
+        "category": "Organismal Systems",
+        "pathway_name": "Parathyroid hormone synthesis, secretion and action"
+    },
+    "path:hsa04916": {
+        "category": "Organismal Systems",
+        "pathway_name": "Melanogenesis"
+    },
+    "path:hsa04924": {
+        "category": "Organismal Systems",
+        "pathway_name": "Renin secretion"
+    },
+    "path:hsa04614": {
+        "category": "Organismal Systems",
+        "pathway_name": "Renin-angiotensin system"
+    },
+    "path:hsa04925": {
+        "category": "Organismal Systems",
+        "pathway_name": "Aldosterone synthesis and secretion"
+    },
+    "path:hsa04927": {
+        "category": "Organismal Systems",
+        "pathway_name": "Cortisol synthesis and secretion"
+    },
+    "path:hsa04260": {
+        "category": "Organismal Systems",
+        "pathway_name": "Cardiac muscle contraction"
+    },
+    "path:hsa04261": {
+        "category": "Organismal Systems",
+        "pathway_name": "Adrenergic signaling in cardiomyocytes"
+    },
+    "path:hsa04270": {
+        "category": "Organismal Systems",
+        "pathway_name": "Vascular smooth muscle contraction"
+    },
+    "path:hsa04970": {
+        "category": "Organismal Systems",
+        "pathway_name": "Salivary secretion"
+    },
+    "path:hsa04971": {
+        "category": "Organismal Systems",
+        "pathway_name": "Gastric acid secretion"
+    },
+    "path:hsa04972": {
+        "category": "Organismal Systems",
+        "pathway_name": "Pancreatic secretion"
+    },
+    "path:hsa04976": {
+        "category": "Organismal Systems",
+        "pathway_name": "Bile secretion"
+    },
+    "path:hsa04973": {
+        "category": "Organismal Systems",
+        "pathway_name": "Carbohydrate digestion and absorption"
+    },
+    "path:hsa04974": {
+        "category": "Organismal Systems",
+        "pathway_name": "Protein digestion and absorption"
+    },
+    "path:hsa04975": {
+        "category": "Organismal Systems",
+        "pathway_name": "Fat digestion and absorption"
+    },
+    "path:hsa04979": {
+        "category": "Organismal Systems",
+        "pathway_name": "Cholesterol metabolism"
+    },
+    "path:hsa04977": {
+        "category": "Organismal Systems",
+        "pathway_name": "Vitamin digestion and absorption"
+    },
+    "path:hsa04980": {
+        "category": "Organismal Systems",
+        "pathway_name": "Cobalamin transport and metabolism"
+    },
+    "path:hsa04978": {
+        "category": "Organismal Systems",
+        "pathway_name": "Mineral absorption"
+    },
+    "path:hsa04962": {
+        "category": "Organismal Systems",
+        "pathway_name": "Vasopressin-regulated water reabsorption"
+    },
+    "path:hsa04960": {
+        "category": "Organismal Systems",
+        "pathway_name": "Aldosterone-regulated sodium reabsorption"
+    },
+    "path:hsa04961": {
+        "category": "Organismal Systems",
+        "pathway_name": "Endocrine and other factor-regulated calcium reabsorption"
+    },
+    "path:hsa04964": {
+        "category": "Organismal Systems",
+        "pathway_name": "Proximal tubule bicarbonate reclamation"
+    },
+    "path:hsa04966": {
+        "category": "Organismal Systems",
+        "pathway_name": "Collecting duct acid secretion"
+    },
+    "path:hsa04724": {
+        "category": "Organismal Systems",
+        "pathway_name": "Glutamatergic synapse"
+    },
+    "path:hsa04727": {
+        "category": "Organismal Systems",
+        "pathway_name": "GABAergic synapse"
+    },
+    "path:hsa04725": {
+        "category": "Organismal Systems",
+        "pathway_name": "Cholinergic synapse"
+    },
+    "path:hsa04728": {
+        "category": "Organismal Systems",
+        "pathway_name": "Dopaminergic synapse"
+    },
+    "path:hsa04726": {
+        "category": "Organismal Systems",
+        "pathway_name": "Serotonergic synapse"
+    },
+    "path:hsa04720": {
+        "category": "Organismal Systems",
+        "pathway_name": "Long-term potentiation"
+    },
+    "path:hsa04730": {
+        "category": "Organismal Systems",
+        "pathway_name": "Long-term depression"
+    },
+    "path:hsa04723": {
+        "category": "Organismal Systems",
+        "pathway_name": "Retrograde endocannabinoid signaling"
+    },
+    "path:hsa04721": {
+        "category": "Organismal Systems",
+        "pathway_name": "Synaptic vesicle cycle"
+    },
+    "path:hsa04722": {
+        "category": "Organismal Systems",
+        "pathway_name": "Neurotrophin signaling pathway"
+    },
+    "path:hsa04744": {
+        "category": "Organismal Systems",
+        "pathway_name": "Phototransduction"
+    },
+    "path:hsa04740": {
+        "category": "Organismal Systems",
+        "pathway_name": "Olfactory transduction"
+    },
+    "path:hsa04742": {
+        "category": "Organismal Systems",
+        "pathway_name": "Taste transduction"
+    },
+    "path:hsa04750": {
+        "category": "Organismal Systems",
+        "pathway_name": "Inflammatory mediator regulation of TRP channels"
+    },
+    "path:hsa04360": {
+        "category": "Organismal Systems",
+        "pathway_name": "Axon guidance"
+    },
+    "path:hsa04380": {
+        "category": "Organismal Systems",
+        "pathway_name": "Osteoclast differentiation"
+    },
+    "path:hsa04211": {
+        "category": "Organismal Systems",
+        "pathway_name": "Longevity regulating pathway"
+    },
+    "path:hsa04213": {
+        "category": "Organismal Systems",
+        "pathway_name": "Longevity regulating pathway - multiple species"
+    },
+    "path:hsa04710": {
+        "category": "Organismal Systems",
+        "pathway_name": "Circadian rhythm"
+    },
+    "path:hsa04713": {
+        "category": "Organismal Systems",
+        "pathway_name": "Circadian entrainment"
+    },
+    "path:hsa04714": {
+        "category": "Organismal Systems",
+        "pathway_name": "Thermogenesis"
+    },
+    "path:hsa05200": {
+        "category": "Human Diseases",
+        "pathway_name": "Pathways in cancer"
+    },
+    "path:hsa05202": {
+        "category": "Human Diseases",
+        "pathway_name": "Transcriptional misregulation in cancer"
+    },
+    "path:hsa05206": {
+        "category": "Human Diseases",
+        "pathway_name": "MicroRNAs in cancer"
+    },
+    "path:hsa05205": {
+        "category": "Human Diseases",
+        "pathway_name": "Proteoglycans in cancer"
+    },
+    "path:hsa05204": {
+        "category": "Human Diseases",
+        "pathway_name": "Chemical carcinogenesis - DNA adducts"
+    },
+    "path:hsa05207": {
+        "category": "Human Diseases",
+        "pathway_name": "Chemical carcinogenesis - receptor activation"
+    },
+    "path:hsa05208": {
+        "category": "Human Diseases",
+        "pathway_name": "Chemical carcinogenesis - reactive oxygen species"
+    },
+    "path:hsa05203": {
+        "category": "Human Diseases",
+        "pathway_name": "Viral carcinogenesis"
+    },
+    "path:hsa05230": {
+        "category": "Human Diseases",
+        "pathway_name": "Central carbon metabolism in cancer"
+    },
+    "path:hsa05231": {
+        "category": "Human Diseases",
+        "pathway_name": "Choline metabolism in cancer"
+    },
+    "path:hsa05235": {
+        "category": "Human Diseases",
+        "pathway_name": "PD-L1 expression and PD-1 checkpoint pathway in cancer"
+    },
+    "path:hsa05210": {
+        "category": "Human Diseases",
+        "pathway_name": "Colorectal cancer"
+    },
+    "path:hsa05212": {
+        "category": "Human Diseases",
+        "pathway_name": "Pancreatic cancer"
+    },
+    "path:hsa05225": {
+        "category": "Human Diseases",
+        "pathway_name": "Hepatocellular carcinoma"
+    },
+    "path:hsa05226": {
+        "category": "Human Diseases",
+        "pathway_name": "Gastric cancer"
+    },
+    "path:hsa05214": {
+        "category": "Human Diseases",
+        "pathway_name": "Glioma"
+    },
+    "path:hsa05216": {
+        "category": "Human Diseases",
+        "pathway_name": "Thyroid cancer"
+    },
+    "path:hsa05221": {
+        "category": "Human Diseases",
+        "pathway_name": "Acute myeloid leukemia"
+    },
+    "path:hsa05220": {
+        "category": "Human Diseases",
+        "pathway_name": "Chronic myeloid leukemia"
+    },
+    "path:hsa05217": {
+        "category": "Human Diseases",
+        "pathway_name": "Basal cell carcinoma"
+    },
+    "path:hsa05218": {
+        "category": "Human Diseases",
+        "pathway_name": "Melanoma"
+    },
+    "path:hsa05211": {
+        "category": "Human Diseases",
+        "pathway_name": "Renal cell carcinoma"
+    },
+    "path:hsa05219": {
+        "category": "Human Diseases",
+        "pathway_name": "Bladder cancer"
+    },
+    "path:hsa05215": {
+        "category": "Human Diseases",
+        "pathway_name": "Prostate cancer"
+    },
+    "path:hsa05213": {
+        "category": "Human Diseases",
+        "pathway_name": "Endometrial cancer"
+    },
+    "path:hsa05224": {
+        "category": "Human Diseases",
+        "pathway_name": "Breast cancer"
+    },
+    "path:hsa05222": {
+        "category": "Human Diseases",
+        "pathway_name": "Small cell lung cancer"
+    },
+    "path:hsa05223": {
+        "category": "Human Diseases",
+        "pathway_name": "Non-small cell lung cancer"
+    },
+    "path:hsa05166": {
+        "category": "Human Diseases",
+        "pathway_name": "Human T-cell leukemia virus 1 infection"
+    },
+    "path:hsa05170": {
+        "category": "Human Diseases",
+        "pathway_name": "Human immunodeficiency virus 1 infection"
+    },
+    "path:hsa05161": {
+        "category": "Human Diseases",
+        "pathway_name": "Hepatitis B"
+    },
+    "path:hsa05160": {
+        "category": "Human Diseases",
+        "pathway_name": "Hepatitis C"
+    },
+    "path:hsa05171": {
+        "category": "Human Diseases",
+        "pathway_name": "Coronavirus disease - COVID-19"
+    },
+    "path:hsa05164": {
+        "category": "Human Diseases",
+        "pathway_name": "Influenza A"
+    },
+    "path:hsa05162": {
+        "category": "Human Diseases",
+        "pathway_name": "Measles"
+    },
+    "path:hsa05168": {
+        "category": "Human Diseases",
+        "pathway_name": "Herpes simplex virus 1 infection"
+    },
+    "path:hsa05163": {
+        "category": "Human Diseases",
+        "pathway_name": "Human cytomegalovirus infection"
+    },
+    "path:hsa05167": {
+        "category": "Human Diseases",
+        "pathway_name": "Kaposi sarcoma-associated herpesvirus infection"
+    },
+    "path:hsa05169": {
+        "category": "Human Diseases",
+        "pathway_name": "Epstein-Barr virus infection"
+    },
+    "path:hsa05165": {
+        "category": "Human Diseases",
+        "pathway_name": "Human papillomavirus infection"
+    },
+    "path:hsa05110": {
+        "category": "Human Diseases",
+        "pathway_name": "Vibrio cholerae infection"
+    },
+    "path:hsa05120": {
+        "category": "Human Diseases",
+        "pathway_name": "Epithelial cell signaling in Helicobacter pylori infection"
+    },
+    "path:hsa05130": {
+        "category": "Human Diseases",
+        "pathway_name": "Pathogenic Escherichia coli infection"
+    },
+    "path:hsa05132": {
+        "category": "Human Diseases",
+        "pathway_name": "Salmonella infection"
+    },
+    "path:hsa05131": {
+        "category": "Human Diseases",
+        "pathway_name": "Shigellosis"
+    },
+    "path:hsa05135": {
+        "category": "Human Diseases",
+        "pathway_name": "Yersinia infection"
+    },
+    "path:hsa05133": {
+        "category": "Human Diseases",
+        "pathway_name": "Pertussis"
+    },
+    "path:hsa05134": {
+        "category": "Human Diseases",
+        "pathway_name": "Legionellosis"
+    },
+    "path:hsa05150": {
+        "category": "Human Diseases",
+        "pathway_name": "Staphylococcus aureus infection"
+    },
+    "path:hsa05152": {
+        "category": "Human Diseases",
+        "pathway_name": "Tuberculosis"
+    },
+    "path:hsa05100": {
+        "category": "Human Diseases",
+        "pathway_name": "Bacterial invasion of epithelial cells"
+    },
+    "path:hsa05146": {
+        "category": "Human Diseases",
+        "pathway_name": "Amoebiasis"
+    },
+    "path:hsa05144": {
+        "category": "Human Diseases",
+        "pathway_name": "Malaria"
+    },
+    "path:hsa05145": {
+        "category": "Human Diseases",
+        "pathway_name": "Toxoplasmosis"
+    },
+    "path:hsa05140": {
+        "category": "Human Diseases",
+        "pathway_name": "Leishmaniasis"
+    },
+    "path:hsa05142": {
+        "category": "Human Diseases",
+        "pathway_name": "Chagas disease"
+    },
+    "path:hsa05143": {
+        "category": "Human Diseases",
+        "pathway_name": "African trypanosomiasis"
+    },
+    "path:hsa05310": {
+        "category": "Human Diseases",
+        "pathway_name": "Asthma"
+    },
+    "path:hsa05322": {
+        "category": "Human Diseases",
+        "pathway_name": "Systemic lupus erythematosus"
+    },
+    "path:hsa05323": {
+        "category": "Human Diseases",
+        "pathway_name": "Rheumatoid arthritis"
+    },
+    "path:hsa05320": {
+        "category": "Human Diseases",
+        "pathway_name": "Autoimmune thyroid disease"
+    },
+    "path:hsa05321": {
+        "category": "Human Diseases",
+        "pathway_name": "Inflammatory bowel disease"
+    },
+    "path:hsa05330": {
+        "category": "Human Diseases",
+        "pathway_name": "Allograft rejection"
+    },
+    "path:hsa05332": {
+        "category": "Human Diseases",
+        "pathway_name": "Graft-versus-host disease"
+    },
+    "path:hsa05340": {
+        "category": "Human Diseases",
+        "pathway_name": "Primary immunodeficiency"
+    },
+    "path:hsa05010": {
+        "category": "Human Diseases",
+        "pathway_name": "Alzheimer disease"
+    },
+    "path:hsa05012": {
+        "category": "Human Diseases",
+        "pathway_name": "Parkinson disease"
+    },
+    "path:hsa05014": {
+        "category": "Human Diseases",
+        "pathway_name": "Amyotrophic lateral sclerosis"
+    },
+    "path:hsa05016": {
+        "category": "Human Diseases",
+        "pathway_name": "Huntington disease"
+    },
+    "path:hsa05017": {
+        "category": "Human Diseases",
+        "pathway_name": "Spinocerebellar ataxia"
+    },
+    "path:hsa05020": {
+        "category": "Human Diseases",
+        "pathway_name": "Prion disease"
+    },
+    "path:hsa05022": {
+        "category": "Human Diseases",
+        "pathway_name": "Pathways of neurodegeneration - multiple diseases"
+    },
+    "path:hsa05030": {
+        "category": "Human Diseases",
+        "pathway_name": "Cocaine addiction"
+    },
+    "path:hsa05031": {
+        "category": "Human Diseases",
+        "pathway_name": "Amphetamine addiction"
+    },
+    "path:hsa05032": {
+        "category": "Human Diseases",
+        "pathway_name": "Morphine addiction"
+    },
+    "path:hsa05033": {
+        "category": "Human Diseases",
+        "pathway_name": "Nicotine addiction"
+    },
+    "path:hsa05034": {
+        "category": "Human Diseases",
+        "pathway_name": "Alcoholism"
+    },
+    "path:hsa05417": {
+        "category": "Human Diseases",
+        "pathway_name": "Lipid and atherosclerosis"
+    },
+    "path:hsa05418": {
+        "category": "Human Diseases",
+        "pathway_name": "Fluid shear stress and atherosclerosis"
+    },
+    "path:hsa05410": {
+        "category": "Human Diseases",
+        "pathway_name": "Hypertrophic cardiomyopathy"
+    },
+    "path:hsa05412": {
+        "category": "Human Diseases",
+        "pathway_name": "Arrhythmogenic right ventricular cardiomyopathy"
+    },
+    "path:hsa05414": {
+        "category": "Human Diseases",
+        "pathway_name": "Dilated cardiomyopathy"
+    },
+    "path:hsa05415": {
+        "category": "Human Diseases",
+        "pathway_name": "Diabetic cardiomyopathy"
+    },
+    "path:hsa05416": {
+        "category": "Human Diseases",
+        "pathway_name": "Viral myocarditis"
+    },
+    "path:hsa04930": {
+        "category": "Human Diseases",
+        "pathway_name": "Type II diabetes mellitus"
+    },
+    "path:hsa04940": {
+        "category": "Human Diseases",
+        "pathway_name": "Type I diabetes mellitus"
+    },
+    "path:hsa04950": {
+        "category": "Human Diseases",
+        "pathway_name": "Maturity onset diabetes of the young"
+    },
+    "path:hsa04936": {
+        "category": "Human Diseases",
+        "pathway_name": "Alcoholic liver disease"
+    },
+    "path:hsa04932": {
+        "category": "Human Diseases",
+        "pathway_name": "Non-alcoholic fatty liver disease"
+    },
+    "path:hsa04931": {
+        "category": "Human Diseases",
+        "pathway_name": "Insulin resistance"
+    },
+    "path:hsa04933": {
+        "category": "Human Diseases",
+        "pathway_name": "AGE-RAGE signaling pathway in diabetic complications"
+    },
+    "path:hsa04934": {
+        "category": "Human Diseases",
+        "pathway_name": "Cushing syndrome"
+    },
+    "path:hsa01521": {
+        "category": "Human Diseases",
+        "pathway_name": "EGFR tyrosine kinase inhibitor resistance"
+    },
+    "path:hsa01524": {
+        "category": "Human Diseases",
+        "pathway_name": "Platinum drug resistance"
+    },
+    "path:hsa01523": {
+        "category": "Human Diseases",
+        "pathway_name": "Antifolate resistance"
+    },
+    "path:hsa01522": {
+        "category": "Human Diseases",
+        "pathway_name": "Endocrine resistance"
+    }
+}

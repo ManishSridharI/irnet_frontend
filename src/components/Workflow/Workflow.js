@@ -23,7 +23,7 @@ function Workflow() {
               isBlog={false}
               title="Got your own data?"
               description="Choose a cancer treatement, type and upload the expression file."
-              s1Link="http://digbio-devel.missouri.edu:9090/predict_upload"
+              s1Link="/predict_upload"
             />
           </Col>
 
@@ -33,7 +33,7 @@ function Workflow() {
               isBlog={false}
               title="View and compare with our results"
               description="View the ICI response Predictions and interpret the results."
-              s2Link="https://blogs.soumya-jit.tech/"
+              s2Link="/predict_results"
             />
           </Col>
         </Row>

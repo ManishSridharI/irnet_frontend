@@ -5,6 +5,13 @@ html {
     rgba(12, 8, 24, 0.904)
   );
 
+  --graph-background-color: linear-gradient(
+    to bottom left,
+    rgba(17, 16, 16, 0.3),
+    rgba(12, 8, 24, 0.6)
+  );
+
+
   --image-gradient: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.678),
@@ -463,6 +470,20 @@ button:focus {
   background-image: var(--section-background-color) !important;
 }
 
+.network-section {
+  position: relative !important;
+  padding-top: 5% !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+}
+
+.graph-container {
+  color: white !important;
+  text-align: left !important;
+  position: relative !important;
+  background-image: var(--graph-background-color) !important; 
+  /* background-color: transparent !important; */
+}
 .project-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;

@@ -1,0 +1,607 @@
+[
+    {
+        "Patient ID": "Patient1",
+        "Predicted score": 0.2340924961026758,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient4",
+        "Predicted score": 0.4909098673611879,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient6",
+        "Predicted score": 0.3275030117481947,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient7",
+        "Predicted score": 0.2465271353721618,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient8",
+        "Predicted score": 0.3643376991152763,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient9",
+        "Predicted score": 0.4030470252037048,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient10",
+        "Predicted score": 0.5227485954761505,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient11",
+        "Predicted score": 0.3994591131806373,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient13",
+        "Predicted score": 0.3747075878549367,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient14",
+        "Predicted score": 0.2412396832834929,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient15",
+        "Predicted score": 0.3854258692241273,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient17",
+        "Predicted score": 0.4272678107023239,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient18",
+        "Predicted score": 0.4590553373098373,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient20",
+        "Predicted score": 0.2015559673309326,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient21",
+        "Predicted score": 0.7140454143285752,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient22",
+        "Predicted score": 0.3525419421494007,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient23",
+        "Predicted score": 0.3913766413927078,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient24",
+        "Predicted score": 0.3884440883994102,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient25",
+        "Predicted score": 0.6429623033851385,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient27",
+        "Predicted score": 0.3002506524324417,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient30",
+        "Predicted score": 0.242181028611958,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient31",
+        "Predicted score": 0.3428574025630951,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient32",
+        "Predicted score": 0.299521348811686,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient33",
+        "Predicted score": 0.5373941771686077,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient34",
+        "Predicted score": 0.5745073825120925,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient35",
+        "Predicted score": 0.2640570342540741,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient36",
+        "Predicted score": 0.2312313340604305,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient37",
+        "Predicted score": 0.3065416738390922,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient38",
+        "Predicted score": 0.2353885903954506,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient40",
+        "Predicted score": 0.3225878462195396,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient42",
+        "Predicted score": 0.6285632282495499,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient44",
+        "Predicted score": 0.7649831414222718,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient45",
+        "Predicted score": 0.6734767213463784,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient47",
+        "Predicted score": 0.2638491332530975,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient48",
+        "Predicted score": 0.2678690861910581,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient51",
+        "Predicted score": 0.5150786638259888,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient56",
+        "Predicted score": 0.3801038980484009,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient58",
+        "Predicted score": 0.3451194502413273,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient61",
+        "Predicted score": 0.5572092860937119,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient62",
+        "Predicted score": 0.4886795539408922,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient63",
+        "Predicted score": 0.2161160182440653,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient67",
+        "Predicted score": 0.2580419255769811,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient72",
+        "Predicted score": 0.456395972520113,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient73",
+        "Predicted score": 0.2892640516161918,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient75",
+        "Predicted score": 0.7292387247085571,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient77",
+        "Predicted score": 0.5000572763383389,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient78",
+        "Predicted score": 0.2377804920077323,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient79",
+        "Predicted score": 0.2403486773371696,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient82",
+        "Predicted score": 0.1911333054304123,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient83",
+        "Predicted score": 0.3285953164100647,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient86",
+        "Predicted score": 0.4862325638532638,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient87",
+        "Predicted score": 0.5996096536517144,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient94",
+        "Predicted score": 0.3401780251413583,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient96",
+        "Predicted score": 0.6554554611444473,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient98",
+        "Predicted score": 0.3984709113836288,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient99",
+        "Predicted score": 0.7053976982831955,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient100",
+        "Predicted score": 0.6065982818603516,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient102",
+        "Predicted score": 0.3072661265730858,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient105",
+        "Predicted score": 0.2908666014671325,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient106",
+        "Predicted score": 0.6104520782828331,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient107",
+        "Predicted score": 0.5678226605057717,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient108",
+        "Predicted score": 0.2406906182994134,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient112",
+        "Predicted score": 0.2543734312057495,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient116",
+        "Predicted score": 0.2537131451070308,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient117",
+        "Predicted score": 0.3956506729125976,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient121",
+        "Predicted score": 0.6584940731525422,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient125",
+        "Predicted score": 0.8232828259468079,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient126",
+        "Predicted score": 0.7995146036148071,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient127",
+        "Predicted score": 0.6107870727777481,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient130",
+        "Predicted score": 0.3543996773660183,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient131",
+        "Predicted score": 0.5740689477417618,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient132",
+        "Predicted score": 0.4917099982500076,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient133",
+        "Predicted score": 0.6074857414467261,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient134",
+        "Predicted score": 0.2071875385940075,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient135",
+        "Predicted score": 0.7142909169197083,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient137",
+        "Predicted score": 0.6116016387939454,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient140",
+        "Predicted score": 0.3889042141614481,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient141",
+        "Predicted score": 0.521252216398716,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient142",
+        "Predicted score": 0.2557712361216545,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient143",
+        "Predicted score": 0.2623475912599247,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient144",
+        "Predicted score": 0.5917293639213312,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient145",
+        "Predicted score": 0.6761726990342141,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient146",
+        "Predicted score": 0.6668139219284057,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient147",
+        "Predicted score": 0.6146135792136193,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient148",
+        "Predicted score": 0.5091451354324817,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient149",
+        "Predicted score": 0.2279703311622142,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient150",
+        "Predicted score": 0.603430300951004,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient154",
+        "Predicted score": 0.2370884597301483,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient155",
+        "Predicted score": 0.3975780263543129,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient156",
+        "Predicted score": 0.4765010505914688,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient158",
+        "Predicted score": 0.4319590002298355,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient159",
+        "Predicted score": 0.4335563197731972,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient162",
+        "Predicted score": 0.5709736347198486,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient163",
+        "Predicted score": 0.2224931553006172,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient165",
+        "Predicted score": 0.3478628069162369,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient166",
+        "Predicted score": 0.5259473558515311,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient167",
+        "Predicted score": 0.3005484819412231,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient168",
+        "Predicted score": 0.6557115323841571,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient169",
+        "Predicted score": 0.6184089332818985,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient170",
+        "Predicted score": 0.2374562017619609,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient172",
+        "Predicted score": 0.3016478434205055,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient173",
+        "Predicted score": 0.2432507418532623,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient179",
+        "Predicted score": 0.661048287153244,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient181",
+        "Predicted score": 0.6605726540088653,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient183",
+        "Predicted score": 0.2463337138295173,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient184",
+        "Predicted score": 0.7536174237728119,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient185",
+        "Predicted score": 0.3431603875011205,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient187",
+        "Predicted score": 0.6302141532301903,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient188",
+        "Predicted score": 0.2602688051760197,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient189",
+        "Predicted score": 0.4273629968287423,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient191",
+        "Predicted score": 0.7140244960784912,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient193",
+        "Predicted score": 0.4470367074012756,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient195",
+        "Predicted score": 0.605372266098857,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient196",
+        "Predicted score": 0.6047255471348763,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient197",
+        "Predicted score": 0.654593551158905,
+        "Predicted ICI response": true
+    },
+    {
+        "Patient ID": "Patient200",
+        "Predicted score": 0.3462825894355774,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient201",
+        "Predicted score": 0.4010541260242462,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient203",
+        "Predicted score": 0.2888530626893043,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient204",
+        "Predicted score": 0.4410845572128892,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient205",
+        "Predicted score": 0.4162208765745163,
+        "Predicted ICI response": false
+    },
+    {
+        "Patient ID": "Patient206",
+        "Predicted score": 0.356034654378891,
+        "Predicted ICI response": false
+    }
+]

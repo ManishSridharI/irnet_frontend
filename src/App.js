@@ -17,9 +17,11 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Results from "./components/Predict/Results";
+import Results from "./components/Results/Results";
 import Login from "./components/Login/Login";
 import SignUp from "./components/Login/Signup";
+import LayoutFA2Control from "./components/Results/Prediction_details";
+import DragNdrop from "./components/Results/Prediction_details";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -46,7 +48,8 @@ function App() {
           <Route path="/sign-in" element={<Login />} />
           <Route path="/sign-up" element={<SignUp />} />
           <Route path="/predict_upload" element={<Upload />} />
-          <Route path="/predict_result" element={<Results />} />
+          <Route path="/predict_results" element={<Results />} />
+          <Route path="/predict_network" element={<DragNdrop />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

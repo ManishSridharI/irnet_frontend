@@ -1,6 +1,7 @@
 # dependencies
 /node_modules
 /.pnp
+/prediction_results
 .pnp.js
 # testing
 /coverage

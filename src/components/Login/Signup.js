@@ -40,8 +40,8 @@ export default class SignUp extends Component {
           />
         </div>
         <div className="d-grid">
-          <button type="submit" className="btn btn-primary">
-            Sign Up
+          <button type="submit" className="fork-btn-inner">
+          <span className="white">Sign Up</span>
           </button>
         </div>
         <div className="forgot-password-container" style={{ display: 'flex', justifyContent: 'space-between', marginTop: 10 }}>

@@ -22,7 +22,6 @@ function Facultystack() {
                             <h3  style={name_css}>Dong Xu</h3>
                             <p >Curators’ Distinguished Professor Fellow, AAAAS, AIMBE Core Faculty, LAS, IDSI, IPG</p>
                             <p >Department of Electrical Engineering and Computer Science</p>
-                            <a style={email_css} href="mailto:XuDong@missouri.edu" target="_blank"> Email Dong</a>
                         </div >
                     </CardContent>
                 </Card >
