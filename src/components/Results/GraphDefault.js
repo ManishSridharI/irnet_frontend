@@ -6,10 +6,11 @@ import { useSeedRandom } from "./SeedRandom";
 import pathway_weights from './pathway_weights.json'
 import pathway_relation from './mapped_pathway_relation.json'
 import pathway_edges from './all_patients_pathway_relation.json'
+import pathwayCategories from './pathway_categories.json'
 
 export const GraphDefault = ({ networkType, key, order, probability, patientId }) => {
-  const { randomColor } = useSeedRandom();
   const sigma = useSigma();
+  const { randomColor } = useSeedRandom();
   const { assign: assignCircular } = useLayoutCircular();
   const registerEvents = useRegisterEvents();
   const loadGraph = useLoadGraph();
@@ -26,54 +27,77 @@ export const GraphDefault = ({ networkType, key, order, probability, patientId }
     const graph = new Graph();
     let filteredNodeData = Object.entries(patientNodeData);
     let filteredEdgeData = patientEdgeData;
-    if (networkType === 'top50-network') {
+    if (networkType === 'full-network') {
+      // Sort nodes by weight and take the top 50
+      filteredNodeData = filteredNodeData;
+      filteredEdgeData = filteredEdgeData;
+    }
+    else if (networkType === 'top50-network') {
       // Sort nodes by weight and take the top 50
       filteredNodeData = filteredNodeData.sort((a, b) => b[1] - a[1]).slice(0, 50);
       const top50NodeIds = filteredNodeData.reduce((obj, [key, value]) => {
         obj[key] = value;
         return obj;
       }, {});
+      // console.log(top50NodeIds);
       filteredEdgeData = filteredEdgeData.filter(item => (
         top50NodeIds.hasOwnProperty(item.source) && top50NodeIds.hasOwnProperty(item.target)
       ));
+     // console.log(filteredEdgeData);
     }
-    console.log(filteredEdgeData);
+    else if (networkType !== 'full-network' || networkType !== 'top50-network'  ) {
+      filteredNodeData = filteredNodeData.filter(([pathwayId, data]) => {
+        // Check if this pathway's category matches the selected category
+        const pathwayCategory = pathwayCategories[pathwayId]?.category;
+        return pathwayCategory === networkType;
+      });
+      let CategoryNodeData = filteredNodeData.reduce((acc, [pathwayId, score]) => {
+        acc[pathwayId] = score;
+        return acc;
+      }, {});
+      // console.log(CategoryNodeData);
+      filteredEdgeData = filteredEdgeData.filter(item => (
+        CategoryNodeData.hasOwnProperty(item.source) && CategoryNodeData.hasOwnProperty(item.target)
+      ));
+      //console.log(filteredEdgeData);
+    }
+    //console.log(filteredEdgeData);
     // patientEdgeData.forEach(item => {
     //   const sourceIndex = parseInt(item.source_index);
     //   const targetIndex = parseInt(item.target_index);
     //   // Assuming your graph implementation has a method to add directed edges with weights
     //   graph.addDirectedEdge(sourceIndex, targetIndex);
     // });
+
+    const colors = ['#ff5252', '#427d9d', '#69923e', '#f8ed62', '#d8bcee', '#af8050'];
+
+    // Assuming you have a method to extract unique categories from your pathway categories JSON
+    const uniqueCategories = [...new Set(Object.values(pathwayCategories).map(item => item.category))];
+    const categoryColorMapping = {};
+
+    // Map each category to a specific color
+    uniqueCategories.forEach((category, index) => {
+      categoryColorMapping[category] = colors[index % colors.length];
+    });
     filteredNodeData.forEach(([pathwayId, weight], index) => {
+      const category = pathwayCategories[pathwayId].category;
+      const color = categoryColorMapping[category];
       graph.addNode(pathwayId, {
         label: pathwayId,
         size: Math.round(weight * 5000),
-        color: randomColor(),
+        color: color,
         x: 0,
         y: 0,
       });
     });
    // Add edges to the graph
    filteredEdgeData.forEach(item => {
-      if (networkType !== 'top50-network' || (graph.hasNode(item.source) && graph.hasNode(item.target))) {
+   // (networkType !== 'top50-network' || networkType !== 'Human Diseases' || (graph.hasNode(item.source) && graph.hasNode(item.target))) 
+      if (graph.hasNode(item.source) && graph.hasNode(item.target)) {
         const label = item.interaction_score;
         graph.addDirectedEdge(item.source, item.target, {label: label});
       }
     });
-    // for (let i = 0; i < order; i++) {
-    //   for (let j = i + 1; j < order; j++) {
-    //     // Consider adding an edge from i to j
-    //     if (Math.random() < probability) {
-    //       const labelIJ = `Edge from ${i} to ${j}`; // Customize your label format here
-    //       graph.addDirectedEdge(i, j, { label: labelIJ });
-    //     }
-    //     // Consider adding an edge from j to i
-    //     if (Math.random() < probability) {
-    //       const labelJI = `Edge from ${j} to ${i}`; // Customize your label format here
-    //       graph.addDirectedEdge(j, i, { label: labelJI });
-    //     }
-    //   }
-    // }
     
     loadGraph(graph);
     assignCircular();
@@ -98,10 +122,17 @@ export const GraphDefault = ({ networkType, key, order, probability, patientId }
         if (hoveredNode) {
           if (node === hoveredNode || graph.neighbors(hoveredNode).includes(node)) {
             newData.highlighted = true;
+            // Update the label to display the pathway name for highlighted nodes
+            const pathwayName = pathwayCategories[node]?.pathway_name || node; // Fallback to node ID if name not found
+            newData.label = pathwayName; // Set the node label to the pathway name
           } else {
             newData.color = "#E2E2E2";
             newData.highlighted = false;
+            newData.label = node; // Revert back to the node ID or a default label if not highlighted
           }
+        } else {
+          // Optionally, revert the label back to the default when no node is highlighted
+          newData.label = node; // Or any other default label you prefer
         }
         return newData;
       },

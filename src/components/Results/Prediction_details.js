@@ -100,15 +100,24 @@ const DragNdrop = () => {
   };
   const [graphKey, setGraphKey] = useState(0);
   const [selectedNetworkType, setSelectedNetworkType] = useState(null); 
+  const [showCategories, setShowCategories] = useState(false);
+  const categories = ['metabolism', 'Genetic Information Processing', 'Environmental Information Processing', 'Cellular Process', 'Organismal Systems', 'Human Diseases'];
   const handleCardClick = (networkType) => {
-    setSelectedNetworkType(networkType);
+    if (networkType === 'category-network') {
+      setShowCategories(true); // Show category options
+    } else {
+      setSelectedNetworkType(networkType);
+      setShowCategories(false); // Hide categories if other options are clicked
+    }
   };
   // Function to refresh the graph
   const refreshGraph = () => {
     setGraphKey(prevKey => prevKey + 1); // Incrementing the key will cause the component to rerender
   };
-  const faculty_card_css = { height:'10%', width: '30%', margin: '1%', boxShadow: '0 0 2rem rgb(3 3 3 / 20%), 0 0 0.3rem rgb(3 3 3 / 9%)' };
+  const network_card_css = { height:'10%', width: '30%', margin: '1%', boxShadow: '0 0 2rem rgb(3 3 3 / 20%), 0 0 0.3rem rgb(3 3 3 / 9%)' };
+  const pathway_card_css = { height:'5%', width: '15%', margin: '0.5%', boxShadow: '0 0 2rem rgb(3 3 3 / 20%), 0 0 0.3rem rgb(3 3 3 / 9%)' };
   const name_css = { fontSize: "1.6em", margin: '5px' };
+  const name2_css = { fontSize: "0.8em", margin: '5px' };
   return (
     <Container fluid className="network-section">
       <Particle/>
@@ -117,7 +126,7 @@ const DragNdrop = () => {
         </h3>
       <p className='white'>Select the type of comparison you want to perform on the newtork. </p>
       <Row>
-      <Card style={faculty_card_css} onClick={() => handleCardClick('full-network')}>
+      <Card style={network_card_css} onClick={() => handleCardClick('full-network')}>
         <CardActionArea>
           <CardContent>
               <div >
@@ -127,7 +136,7 @@ const DragNdrop = () => {
           </CardContent>
           </CardActionArea>
       </Card >
-      <Card style={faculty_card_css} onClick={() => handleCardClick('category-network')}>
+      <Card style={network_card_css} onClick={() => handleCardClick('category-network')}>
         <CardActionArea>
           <CardContent>
               <div >
@@ -137,7 +146,7 @@ const DragNdrop = () => {
           </CardContent>
           </CardActionArea>
       </Card >
-      <Card style={faculty_card_css} onClick={() => handleCardClick('top50-network')}>
+      <Card style={network_card_css} onClick={() => handleCardClick('top50-network')}>
         <CardActionArea>
           <CardContent>
              <div >
@@ -148,6 +157,22 @@ const DragNdrop = () => {
           </CardActionArea>
       </Card >
       </Row>
+      {showCategories && (
+        <Row>
+          <p className='white'>Select the Pathway Category type</p>
+          {categories.map((category, index) => (
+            <Card key={index} style={pathway_card_css} onClick={() => setSelectedNetworkType(category)}>
+              <CardActionArea>
+                <CardContent>
+                  <div>
+                    <h3 style={name2_css}>{category}</h3>
+                  </div>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          ))}
+        </Row>
+      )}
       {selectedNetworkType && (
     <SigmaContainer className="graph-container" style={{ height:'600px'}} settings={{ renderEdgeLabels: true}}>
       <GraphDefault key={graphKey} networkType={selectedNetworkType} order={30} probability={0.1} patientId={patientId}/>
