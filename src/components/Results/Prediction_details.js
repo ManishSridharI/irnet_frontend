@@ -35,6 +35,8 @@ import { CardActionArea } from '@mui/material';
 const DragNdrop = () => {
   const location = useLocation();
   const patientId = location.state?.patientId;
+  const jobId = location.state?.jobId;
+  // console.log(patientId,jobId,'ids');
   const GraphEvents = () => {
     const registerEvents = useRegisterEvents();
     const sigma = useSigma();
@@ -108,6 +110,7 @@ const DragNdrop = () => {
     } else {
       setSelectedNetworkType(networkType);
       setShowCategories(false); // Hide categories if other options are clicked
+      setGraphKey(prevKey => prevKey + 1);
     }
   };
   // Function to refresh the graph
@@ -161,7 +164,7 @@ const DragNdrop = () => {
         <Row>
           <p className='white'>Select the Pathway Category type</p>
           {categories.map((category, index) => (
-            <Card key={index} style={pathway_card_css} onClick={() => setSelectedNetworkType(category)}>
+            <Card key={index} style={pathway_card_css} onClick={() => { setSelectedNetworkType(category); setGraphKey(prevKey => prevKey + 1); }}>
               <CardActionArea>
                 <CardContent>
                   <div>
@@ -175,7 +178,7 @@ const DragNdrop = () => {
       )}
       {selectedNetworkType && (
     <SigmaContainer className="graph-container" style={{ height:'600px'}} settings={{ renderEdgeLabels: true}}>
-      <GraphDefault key={graphKey} networkType={selectedNetworkType} order={30} probability={0.1} patientId={patientId}/>
+      <GraphDefault key={graphKey} networkType={selectedNetworkType} order={30} probability={0.1} patientId={patientId} jobId={jobId}/>
       <ControlsContainer position={"bottom-right"}>
       <ZoomControl />
         <FullScreenControl />

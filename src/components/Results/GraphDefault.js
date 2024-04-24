@@ -8,7 +8,7 @@ import pathway_relation from './mapped_pathway_relation.json'
 import pathway_edges from './all_patients_pathway_relation.json'
 import pathwayCategories from './pathway_categories.json'
 
-export const GraphDefault = ({ networkType, key, order, probability, patientId }) => {
+export const GraphDefault = ({ networkType, key, order, probability, patientId, jobId }) => {
   const sigma = useSigma();
   const { randomColor } = useSeedRandom();
   const { assign: assignCircular } = useLayoutCircular();
@@ -17,12 +17,58 @@ export const GraphDefault = ({ networkType, key, order, probability, patientId }
   const setSettings = useSetSettings();
   const [hoveredNode, setHoveredNode] = useState(null);
   const [selectedNode, setSelectedNode] = useState(null);
-  const patientNodeData = pathway_weights[patientId];
-  const patientEdgeData = pathway_edges[patientId];
-  console.log(networkType);
+  const [patientNodeData, setpatientNodeData] = useState([]);
+  const [patientEdgeData, setpatientEdgeData] = useState([]);
+ //const patientNodeData = pathway_weights[patientId];
+  //const patientEdgeData1 = pathway_edges[patientId];
+ 
 
+  const fetchNodeData = async (patientId, jobId) => {
+    try {
+      const response = await fetch(`http://digbio-g2pdeep.rnet.missouri.edu:9900/node_results/${jobId}/${patientId}`);
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const data = await response.json();
+      const transformedData = data.reduce((acc, item) => {
+        acc[item.Patient] = item.Weight;
+        return acc;
+      }, {});
+      setpatientNodeData(transformedData);
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  };
+  const fetchEdgeData = async (patientId, jobId) => {
+    try {
+      const response = await fetch(`http://digbio-g2pdeep.rnet.missouri.edu:9900/edge_results/${jobId}/${patientId}`);
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const data = await response.json();
+      // const transformedData = data.reduce((acc, item) => {
+      //   acc[item.Patient] = item.Weight;
+      //   return acc;
+      // }, {});
+      setpatientEdgeData(data);
+    } catch (error) {
+      console.error('Error fetching data:', error);
+    }
+  };
 
+ 
   useEffect(() => {
+    // This fetch should only occur when patientId or jobId changes
+    if (patientId && jobId) {
+      fetchNodeData(patientId, jobId);
+      fetchEdgeData(patientId, jobId);
+    }
+  }, [patientId, jobId]);
+  // console.log(patientNodeData);
+  useEffect(() => {
+    
+    // console.log(patientNodeData);
+   // fetchEdgeData();
     // Create the graph
     const graph = new Graph();
     let filteredNodeData = Object.entries(patientNodeData);
@@ -75,6 +121,18 @@ export const GraphDefault = ({ networkType, key, order, probability, patientId }
     const uniqueCategories = [...new Set(Object.values(pathwayCategories).map(item => item.category))];
     const categoryColorMapping = {};
 
+    const weights = filteredNodeData.map(([_, weight]) => weight);
+    const minWeight = Math.min(...weights);
+    const maxWeight = Math.max(...weights);
+    const minSize = 5;  // Minimum node size
+    const maxSize = 25;  // Maximum node size
+
+    const scaleWeight = (weight) => {
+      const normalizedWeight = (weight - minWeight) / (maxWeight - minWeight);
+       return minSize + Math.pow(normalizedWeight, 2) * (maxSize - minSize);
+     // return minSize + (weight - minWeight) * (maxSize - minSize) / (maxWeight - minWeight);
+    };
+
     // Map each category to a specific color
     uniqueCategories.forEach((category, index) => {
       categoryColorMapping[category] = colors[index % colors.length];
@@ -84,7 +142,7 @@ export const GraphDefault = ({ networkType, key, order, probability, patientId }
       const color = categoryColorMapping[category];
       graph.addNode(pathwayId, {
         label: pathwayId,
-        size: Math.round(weight * 5000),
+        size: scaleWeight(weight),
         color: color,
         x: 0,
         y: 0,
@@ -112,7 +170,7 @@ export const GraphDefault = ({ networkType, key, order, probability, patientId }
         setHoveredNode(null); // Reset selected node when clicking outside nodes
       },
     });
-  }, [assignCircular, loadGraph, registerEvents, key, randomColor, order, probability, patientId]);
+  }, [assignCircular, loadGraph, registerEvents, key, randomColor, order, probability, patientId, patientNodeData, patientEdgeData]);
 
   useEffect(() => {
     setSettings({

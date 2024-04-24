@@ -2,15 +2,32 @@ import React, { useState, useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
 import prediction from './prediction_results.json'
 import { useNavigate } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 
 
-const PatientBarGraph = () => {
+const PatientBarGraph = ({patientData, jobId}) => {
+  const [searchParams] = useSearchParams();
+  //const jobId = searchParams.get('jobId');
   const chartContainer = useRef(null);
-  const patientData = prediction;
+  //const patientData = prediction;
+  //const [patientData, setPatientData] = useState([]);
   const navigate = useNavigate();
+
+  // const fetchData = async () => {
+  //   try {
+  //     const response = await fetch(`http://digbio-g2pdeep.rnet.missouri.edu:9900/prediction_results/${jobId}`);
+  //     const data = await response.json();
+  //     console.log(data);
+  //     setPatientData(data);
+  //   } catch (error) {
+  //     console.error('Error fetching data:', error);
+  //   }
+  // };
   
 
   useEffect(() => {
+   // fetchData();
+    //console.log('here',patientData)
     if (patientData.length === 0) return;
 
     const labels = patientData.map(patient => patient['Patient ID']);
@@ -37,7 +54,8 @@ const PatientBarGraph = () => {
           if (elements.length > 0) {
             const index = elements[0].index;
             const patientId = patientData[index]['Patient ID']; // Assuming 'patientData' has 'Patient ID'
-            navigate('/predict_network', { state: { patientId } }); // Navigate and pass patientId via state
+          //  console.log(patientId,jobId);
+            navigate('/predict_network', { state: { patientId: patientId, jobId: jobId } }); // Navigate and pass patientId via state
           }
         },
         scales: {
@@ -96,7 +114,7 @@ const PatientBarGraph = () => {
         }
       }
     });
-  }, [patientData, navigate]);
+  }, [patientData, jobId, navigate]);
 
   return <canvas ref={chartContainer} />;
 }

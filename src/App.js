@@ -5,8 +5,8 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Workflow/Workflow";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
 import Upload from "./components/Predict/Upload"
+import Error from "./components/Error";
 import {
   BrowserRouter as Router,
   Route,
@@ -44,12 +44,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
           <Route path="/sign-in" element={<Login />} />
           <Route path="/sign-up" element={<SignUp />} />
           <Route path="/predict_upload" element={<Upload />} />
           <Route path="/predict_results" element={<Results />} />
           <Route path="/predict_network" element={<DragNdrop />} />
+          <Route path="/error" element={<Error />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
