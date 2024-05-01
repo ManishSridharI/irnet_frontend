@@ -22,6 +22,8 @@ import Login from "./components/Login/Login";
 import SignUp from "./components/Login/Signup";
 import LayoutFA2Control from "./components/Results/Prediction_details";
 import DragNdrop from "./components/Results/Prediction_details";
+import GettingStatred from "./components/GettingStarted";
+
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -44,6 +46,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
+          <Route path="/documentation" element={<GettingStatred />} />
           <Route path="/sign-in" element={<Login />} />
           <Route path="/sign-up" element={<SignUp />} />
           <Route path="/predict_upload" element={<Upload />} />

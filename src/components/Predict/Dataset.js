@@ -25,7 +25,7 @@ export default function Dataset({ jobId }) {
     // useEffect(() => {
     //     const fetchData = async () => {
     //         try {
-    //             const response = await fetch('http://digbio-g2pdeep.rnet.missouri.edu:9900/datasets');
+    //             const response = await fetch('/api/datasets');
     //             const data = await response.json();
     //             setDatasetInfo(data);
     //         } catch (error) {
@@ -37,7 +37,7 @@ export default function Dataset({ jobId }) {
 
     const sendDatasetInfo = async (dataset) => {
         try {
-            const response = await fetch('http://digbio-g2pdeep.rnet.missouri.edu:9900/dataset_info', {
+            const response = await fetch('/api/dataset_info', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -70,7 +70,7 @@ export default function Dataset({ jobId }) {
         const selectedDataset = datasetInfo[selectedRow];
         selectionMessage = (
             <div>
-                You have selected: <span className='pink'>{selectedDataset.dataset_name}</span>
+              <p>You have selected: <span className='purple'>{selectedDataset.dataset_name}</span></p>  
             </div>
         );
     }

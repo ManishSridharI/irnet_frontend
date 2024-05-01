@@ -14,7 +14,7 @@ function Drugstack({ jobId }) {
 
   const sendDrugInfo = async (cardValue) => {
     try {
-        const response = await fetch('http://digbio-g2pdeep.rnet.missouri.edu:9900/drug_info', {
+        const response = await fetch('/api/drug_info', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

@@ -33,8 +33,8 @@ function Facultystack() {
                             </div>
                             <h3  style={name_css}>Trupti Joshi</h3>
                             <p>Assistant Professor</p>
-                            <p>Core Faculty, IDSI, IPG, LSC, EECS</p>
-                            <p>Department of Health Management and Informatics</p>
+                            <p>Core Faculty MUIDSI, DPST, LSC, IPG, EECS</p>
+                            <p>Department of Biomedical Informatics, Biostatistics and Medical Epidemiology (BBME)</p>
                             <a style={email_css} href="mailto:JoshiTr@missouri.edu" target="_blank"> Email Trupti</a>
                         </div >
                     </CardContent>

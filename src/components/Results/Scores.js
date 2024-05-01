@@ -15,7 +15,7 @@ const PatientBarGraph = ({patientData, jobId}) => {
 
   // const fetchData = async () => {
   //   try {
-  //     const response = await fetch(`http://digbio-g2pdeep.rnet.missouri.edu:9900/prediction_results/${jobId}`);
+  //     const response = await fetch(`/api/prediction_results/${jobId}`);
   //     const data = await response.json();
   //     console.log(data);
   //     setPatientData(data);

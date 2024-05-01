@@ -35,7 +35,7 @@ const FileUpload = ({ jobId }) => {
   //     formData.append('gene_counts.txt', selectedFile); // 'avatar' is the name used for the file in form data
   //     try {
   //       // Send the file to your backend using Axios or fetch
-  //       const response = await axios.post('http://digbio-g2pdeep.rnet.missouri.edu:9900/file_upload', formData);
+  //       const response = await axios.post('/api/file_upload', formData);
   //       // console.log(response.data); // Handle the response from the backend
   //     } catch (error) {
   //       console.error('Error uploading file:', error);
@@ -53,7 +53,7 @@ const FileUpload = ({ jobId }) => {
       formData.append('dataset_name', datasetName);
       formData.append('jobId', jobId);
       try {
-        const response = await axios.post('http://digbio-g2pdeep.rnet.missouri.edu:9900/file_upload', formData);
+        const response = await axios.post('/api/file_upload', formData);
         console.log(response.data); // Optionally, handle the response data from the backend
       } catch (error) {
         console.error('Error uploading file:', error);

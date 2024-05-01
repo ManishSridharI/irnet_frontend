@@ -12,31 +12,21 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
-
-// const LayoutFA2Control = () => {
-//   const location = useLocation();
-//   const patientId = location.state?.patientId;
-//   return (
-//     <Container fluid className="project-section" style={{ padding:'40px' }}>
-//       <Particle/>
-//     <SigmaContainer className="graph-container" style={{ height:'600px'}}>
-//       <GraphDefault order={34} probability={0.1} patientId={patientId} />
-//       <ControlsContainer position={"bottom-right"}>
-//         <LayoutForceAtlas2Control settings={{ settings: { slowDown: 10, edgeLabelSize: 'proportional' } }} />
-//       </ControlsContainer>
-//     </SigmaContainer>
-//     </Container>
-//   );
-// };
-
-// export default LayoutFA2Control;
-
+import pathwayCategories from './pathway_categories.json'
+import Select from 'react-select';
 
 const DragNdrop = () => {
   const location = useLocation();
   const patientId = location.state?.patientId;
   const jobId = location.state?.jobId;
+  const [selectedPathway, setSelectedPathway] = useState(null);
   // console.log(patientId,jobId,'ids');
+
+  // const pathwayOptions = Object.entries(pathwayCategories).map(([key, value]) => ({
+  //   value: key,
+  //   label: value.pathway_name
+  // }));
+
   const GraphEvents = () => {
     const registerEvents = useRegisterEvents();
     const sigma = useSigma();
@@ -117,6 +107,16 @@ const DragNdrop = () => {
   const refreshGraph = () => {
     setGraphKey(prevKey => prevKey + 1); // Incrementing the key will cause the component to rerender
   };
+
+  // const handlePathwayChange = selectedOption => {
+  //   setSelectedPathway(selectedOption);
+  //   console.log(selectedOption);
+  //   if (selectedOption) {
+  //     // Center the graph on the selected node
+  //     const nodePosition = sigma.getGraph().getNodeAttributes(selectedOption.value);
+  //     sigma.getCamera().animate({ x: nodePosition.x, y: nodePosition.y, ratio: 1 }, { duration: 500 });
+  //   }
+  // };
   const network_card_css = { height:'10%', width: '30%', margin: '1%', boxShadow: '0 0 2rem rgb(3 3 3 / 20%), 0 0 0.3rem rgb(3 3 3 / 9%)' };
   const pathway_card_css = { height:'5%', width: '15%', margin: '0.5%', boxShadow: '0 0 2rem rgb(3 3 3 / 20%), 0 0 0.3rem rgb(3 3 3 / 9%)' };
   const name_css = { fontSize: "1.6em", margin: '5px' };
@@ -129,12 +129,18 @@ const DragNdrop = () => {
         </h3>
       <p className='white'>Select the type of comparison you want to perform on the newtork. </p>
       <Row>
-      <Card style={network_card_css} onClick={() => handleCardClick('full-network')}>
+      {/* <Select
+            options={pathwayOptions}
+            onChange={handlePathwayChange}
+            placeholder="Search for a pathway..."
+            isClearable={true}
+          /> */}
+      <Card style={network_card_css} onClick={() => handleCardClick('top50-network')}>
         <CardActionArea>
           <CardContent>
-              <div >
-                  <h3 style={name_css}>Full Network</h3>
-                  <p>Select this to compare whole pathway network</p>
+             <div >
+                  <h3 style={name_css}>Filter by weights</h3>
+                  <p>Select this to compare the Top 50 pathways</p>
               </div >
           </CardContent>
           </CardActionArea>
@@ -149,12 +155,12 @@ const DragNdrop = () => {
           </CardContent>
           </CardActionArea>
       </Card >
-      <Card style={network_card_css} onClick={() => handleCardClick('top50-network')}>
+      <Card style={network_card_css} onClick={() => handleCardClick('full-network')}>
         <CardActionArea>
           <CardContent>
-             <div >
-                  <h3 style={name_css}>Filter by weights</h3>
-                  <p>Select this to compare the Top 50 pathways</p>
+              <div >
+                  <h3 style={name_css}>Full Network</h3>
+                  <p>Select this to compare whole pathway network</p>
               </div >
           </CardContent>
           </CardActionArea>

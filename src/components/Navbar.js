@@ -64,7 +64,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/"
+                to="/documentation"
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Getting Started
@@ -82,7 +82,7 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="https://github.com/ManishSridharI" target="_blank" onClick={() => updateExpanded(false)}>
+              <Nav.Link href="https://github.com/yuexujiang/IRnet" target="_blank" onClick={() => updateExpanded(false)}>
                 {/* as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Graph from "graphology";
 import { useSigma, useRegisterEvents, useLoadGraph, useSetSettings } from "@react-sigma/core";
 import { useLayoutCircular } from "@react-sigma/layout-circular";
-import { useSeedRandom } from "./SeedRandom";
+//import { useSeedRandom } from "./SeedRandom";
 import pathway_weights from './pathway_weights.json'
 import pathway_relation from './mapped_pathway_relation.json'
 import pathway_edges from './all_patients_pathway_relation.json'
@@ -10,7 +10,7 @@ import pathwayCategories from './pathway_categories.json'
 
 export const GraphDefault = ({ networkType, key, order, probability, patientId, jobId }) => {
   const sigma = useSigma();
-  const { randomColor } = useSeedRandom();
+  //const { randomColor } = useSeedRandom();
   const { assign: assignCircular } = useLayoutCircular();
   const registerEvents = useRegisterEvents();
   const loadGraph = useLoadGraph();
@@ -25,7 +25,7 @@ export const GraphDefault = ({ networkType, key, order, probability, patientId, 
 
   const fetchNodeData = async (patientId, jobId) => {
     try {
-      const response = await fetch(`http://digbio-g2pdeep.rnet.missouri.edu:9900/node_results/${jobId}/${patientId}`);
+      const response = await fetch(`/api/node_results/${jobId}/${patientId}`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
@@ -41,7 +41,7 @@ export const GraphDefault = ({ networkType, key, order, probability, patientId, 
   };
   const fetchEdgeData = async (patientId, jobId) => {
     try {
-      const response = await fetch(`http://digbio-g2pdeep.rnet.missouri.edu:9900/edge_results/${jobId}/${patientId}`);
+      const response = await fetch(`/api/edge_results/${jobId}/${patientId}`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
@@ -170,7 +170,7 @@ export const GraphDefault = ({ networkType, key, order, probability, patientId, 
         setHoveredNode(null); // Reset selected node when clicking outside nodes
       },
     });
-  }, [assignCircular, loadGraph, registerEvents, key, randomColor, order, probability, patientId, patientNodeData, patientEdgeData]);
+  }, [assignCircular, loadGraph, registerEvents, key, order, probability, patientId, patientNodeData, patientEdgeData]);
 
   useEffect(() => {
     setSettings({

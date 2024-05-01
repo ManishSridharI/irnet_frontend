@@ -47,10 +47,10 @@ function Footer() {
             <Col md='2' lg='2' xl='2' className='mx-auto mb-4'>
               <h6 className='purple'>Other Developements</h6>
               <p className='white'>
-                <a href='https://impres.missouri.edu/impres' target="_blank" className='white'>IMPRes</a>
+                <a href='https://g2pdeep.org/' target="_blank" className='white'>G2PDeep</a>
               </p>
               <p className='white'>
-                <a href='https://g2pdeep.org/' target="_blank" className='white'>G2PDeep</a>
+                <a href='https://impres.missouri.edu/impres' target="_blank" className='white'>IMPRes</a>
               </p>
               <p className='white'>
                 <a href='https://mu-loc.org/' target="_blank" className='white'>MuLocDeep</a>
@@ -128,7 +128,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/ManishSridharI"
+                href="https://github.com/yuexujiang/IRnet"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

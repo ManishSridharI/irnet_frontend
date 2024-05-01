@@ -704,7 +704,15 @@ button:focus {
 .resume {
   padding-top: 50px;
   padding-bottom: 50px;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pdf {
+  align-items: center !important;
+  padding-left: 15% !important;
+  /* padding-right: 25% !important; */
 }
 
 .resume-left {
@@ -746,7 +754,7 @@ button:focus {
   background: #5234795d;
   padding: 8px 15px;
   display: inline-block;
-  font-weight: 600;
+  font-weight: 800;
   margin-bottom: 10px;
 }
 

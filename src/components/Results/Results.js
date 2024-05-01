@@ -11,7 +11,7 @@ export default function Results() {
   useEffect(() => {
   const fetchData = async () => {
     try {
-      const response = await fetch(`http://digbio-g2pdeep.rnet.missouri.edu:9900/prediction_results/${jobId}`);
+      const response = await fetch(`/api/prediction_results/${jobId}`);
       const data = await response.json();
      // console.log(data);
       setPatientData(data);
@@ -30,9 +30,9 @@ export default function Results() {
         <h3 style={{ fontSize: "1.6em", padding: "20px" }}>
           <strong className="purple">Prediction Results </strong>
         </h3>
+        <p className='white'>Click on the specific patient bar you need,<strong className="pink"> to view pathway weightage and relation for that patient. </strong></p>
         <PatientBarGraph patientData={patientData} jobId={jobId}/>
         <br></br>
-        <p className='white'>Click on the specific patient bar you need to view pathway weightage and relation for that patient. </p>
         </Container>
         </Container>
     );

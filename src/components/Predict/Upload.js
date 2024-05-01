@@ -20,7 +20,10 @@ export default function Upload() {
     // Fetch the highest jobId when the component mounts
     const fetchJobId = async () => {
       try {
-        const response = await fetch('http://digbio-g2pdeep.rnet.missouri.edu:9900/job_id');
+        const response = await fetch('/api/job_id',{
+        headers: {
+          'Content-Type': 'application/json',
+        },});
         const data = await response.json();
         setJobId(data.highest_job_id + 1); // Set the jobId from the response
       } catch (error) {
@@ -35,7 +38,7 @@ export default function Upload() {
     try {
       setLoading(true); // Show preloader
       // Replace 'your-backend-endpoint' with the actual backend endpoint URL
-      const response = await fetch('http://digbio-g2pdeep.rnet.missouri.edu:9900/run_prediction', {
+      const response = await fetch('/api/run_prediction', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
